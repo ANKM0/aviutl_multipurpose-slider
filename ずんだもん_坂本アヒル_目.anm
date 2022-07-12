@@ -1,7 +1,4 @@
 --track0:黒目,0,8,0,1
---track1:白目,0,2,0,1
---track2:表情,0,13,0,1
-
 local values= {
   "v1.!目/*目セット/!黒目/*目逸らし3",
   "v1.!目/*目セット/!黒目/*目逸らし2",
@@ -12,6 +9,8 @@ local values= {
   "v1.!目/*目セット/!黒目/*普通目3",
   "v1.!目/*目セット/!黒目/*普通目2",
 }
+
+--track1:白目,0,2,0,1
 PSD:addstate(values, obj.track0)
 
 local values= {
@@ -21,6 +20,7 @@ local values= {
 PSD:addstate(values, obj.track1)
 
 
+--track2:表情,0,13,0,1
 local values= {
   "v1.!目/*ぐるぐる",
   "v1.!目/*〇〇",

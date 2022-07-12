@@ -1,7 +1,4 @@
 --track0:•2¶˜r,0,9,0,1
---track1:•2‰E˜r,0,9,0,1
---track2:•‘•2,0,6,0,1
-
 local values= {
   "v1.*•‘•2/!¶˜r/*(”ñ%xQ¦)",
   "v1.*•‘•2/!¶˜r/*‚Ğ‚»‚Ğ‚»",
@@ -16,6 +13,7 @@ local values= {
 PSD:addstate(values, obj.track0)
 
 
+--track1:•2‰E˜r,0,9,0,1
 local values= {
   "v1.*•‘•2/!‰E˜r/*(”ñ%xQ¦)",
   "v1.*•‘•2/!‰E˜r/*‹¹Œ³",
@@ -30,6 +28,7 @@ local values= {
 PSD:addstate(values, obj.track1)
 
 
+--track2:•‘•2,0,6,0,1
 local values= {
   "v1.*•‘•2/*‘f‘Ì",
   "v1.*•‘•2/*‚Ï‚ñ‚Â",
