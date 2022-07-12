@@ -1,0 +1,24 @@
+--track0:記号など,0,5,0,1
+local values= {
+  "v1.記号など/汗3",
+  "v1.記号など/汗2",
+  "v1.記号など/汗1",
+  "v1.記号など/涙",
+  "v1.記号など/アヒルちゃん",
+}
+PSD:addstate(values, obj.track0)
+
+--track1:!枝豆,0,3,0,1
+local values= {
+  "v1.!枝豆/*枝豆萎え",
+  "v1.!枝豆/*枝豆通常",
+  "v1.!枝豆/*パーカー(裏地とセットで使用)",
+}
+PSD:addstate(values, obj.track1)
+
+--track2:パーカー裏地,0,2,0,1
+local values= {
+  "v1.尻尾的なアレ",
+  "v1.パーカー裏地",
+}
+PSD:addstate(values, obj.track2)
